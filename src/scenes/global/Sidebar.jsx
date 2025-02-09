@@ -7,7 +7,7 @@ const Sidebar = () => {
   const [activeLink, setActiveLink] = useState(1);
 
   return (
-    <div className="w-16 md:w-60 h-screen bg-white shadow fixed left-0 top-0 transition-all duration-300 ease-in-out md:px-6 pt-6">
+    <div className="w-16 md:w-60 h-screen bg-white fixed left-0 top-0 transition-all duration-300 ease-in-out md:px-6 pt-6">
       {/* Logo */}
       <div className="flex items-center gap-3">
         <img
