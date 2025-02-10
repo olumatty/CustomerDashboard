@@ -7,11 +7,11 @@ import CustomerIcon from "../assets/New Costumers Icon.svg"
 
 const Sales = () => {
   return (
-    <div className='bg-white h-[260px] p-4 '>
+    <div className=' bg-white rounded-lg h-[260px] py-4 px-8 '>
       {/* Header */}
       <div className='flex justify-between'>
         <div className='flex flex-col space-y-3'>
-          <span className='font-medium text-xl'>Today's Sales</span>
+          <span className='font-semibold'>Today's Sales</span>
           <span className='text-sm text-[#737791]'>Sales Summary</span>
         </div>
 
