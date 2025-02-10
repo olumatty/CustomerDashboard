@@ -7,15 +7,15 @@ const Sidebar = () => {
   const [activeLink, setActiveLink] = useState(1);
 
   return (
-    <div className="w-16 md:w-60 h-screen bg-white fixed left-0 top-0 transition-all duration-300 ease-in-out md:px-6 pt-6">
+    <div className="w-16 md:w-28 lg:w-60 h-screen bg-white fixed left-0 top-0 transition-all duration-300 ease-in-out md:px-6 pt-6">
       {/* Logo */}
       <div className="flex items-center gap-3">
         <img
           src={Logo}
           alt="Logo"
-          className="w-10 ml-3  md:h-12 md:w-12 cursor-pointer"
+          className="w-10 ml-3 lg:h-12 lg:w-12 cursor-pointer"
         />
-        <h1 className="font-semibold text-xl hidden md:block">Dabang</h1>
+        <h1 className="font-semibold text-xl hidden lg:block">Dabang</h1>
       </div>
 
       {/* Navbar */} 
@@ -26,7 +26,7 @@ const Sidebar = () => {
             <li
               key={index}
               className={`flex items-center gap-6 cursor-pointer ml-2 ${
-                isActive ? "bg-[#5932EA] h-12 md:w-full mr-2 md:mr-0 text-white rounded-xl" : ""
+                isActive ? "bg-[#5932EA] h-12 lg:w-full mr-2 md:mr-0 text-white rounded-xl" : ""
               }`}
               onClick={() => setActiveLink(data.id)} // Corrected onClick handler
             >
@@ -35,7 +35,7 @@ const Sidebar = () => {
               </div>
 
               <span
-                className={`hidden md:block text-sm transition-all ${
+                className={`hidden lg:block text-sm transition-all ${
                   isActive ? "text-white" : "text-[#737791]"
                 }`}
               >
@@ -47,7 +47,7 @@ const Sidebar = () => {
       </ul>
 
       {/* Update */}
-      <div className=" hidden md:block md:absolute md:bottom-10  md:left-0 md:px-8 md:py-2 cursor-pointer">
+      <div className=" hidden lg:block lg:absolute md:bottom-10  md:left-0 md:px-8 md:py-2 cursor-pointer">
         <img src={GetProImage} alt="" className="h-40 w-40" />
       </div>
     </div>
