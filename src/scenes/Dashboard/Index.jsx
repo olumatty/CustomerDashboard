@@ -6,6 +6,8 @@ import Customer from "../../components/Customer";
 import Target from "../../components/Target";
 import SalesMap from "../../components/SalesMap"
 import Products from "../../components/Products";
+import Volume from "../../components/Volume";
+
 const Dashboard = () => {
   return (
     <div className="py-6 pl-6 pr-6 w-full gap-6 auto-rows-[260px]">
@@ -39,7 +41,7 @@ const Dashboard = () => {
           <SalesMap/>
         </div>
         <div className="col-span-4">
-          <Target/>
+          <Volume/>
         </div>
       </div>
     </div>
