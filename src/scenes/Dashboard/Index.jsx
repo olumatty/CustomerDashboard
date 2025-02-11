@@ -5,6 +5,7 @@ import Revenue from "../../components/Revenue";
 import Customer from "../../components/Customer"; 
 import Target from "../../components/Target";
 import SalesMap from "../../components/SalesMap"
+import Products from "../../components/Products";
 const Dashboard = () => {
   return (
     <div className="py-6 pl-6 pr-6 w-full gap-6 auto-rows-[260px]">
@@ -32,7 +33,7 @@ const Dashboard = () => {
       {/*Row Three */}
       <div className="grid grid-cols-14 gap-6 mt-6">
         <div className="col-span-6">
-          <Revenue />
+          <Products/>
         </div>
         <div className="col-span-4">
           <SalesMap/>
