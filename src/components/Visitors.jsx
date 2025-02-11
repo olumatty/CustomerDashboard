@@ -27,9 +27,9 @@ const data = [
 
 const VisitorInsightsChart = () => {
   return (
-    <div className="w-full h-[260px] bg-white p-4 rounded-lg">
-      <h2 className="font-semibold px-6 text-gray-900 mb-3">Visitor Insights</h2>
-      <ResponsiveContainer width="98%" height="80%">
+    <div className="w-full h-[260px] bg-white rounded-lg">
+      <h2 className="font-semibold pt-4 px-6">Visitor Insights</h2>
+      <ResponsiveContainer width="98%" height="75%" className="mt-2 pr-4">
         <LineChart data={data}>
           <XAxis
             dataKey="name"

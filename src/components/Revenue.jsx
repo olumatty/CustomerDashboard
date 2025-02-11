@@ -22,9 +22,9 @@ const data = [
 
 const Revenue = () => {
   return (
-    <div className=" bg-white rounded-lg h-[260px] py-4 px-8 ">
-      <h2 className="font-semibold mb-4">Total Revenue</h2>
-      <ResponsiveContainer width="100%" height="80%">
+    <div className=" bg-white rounded-lg h-[280px] ">
+      <h2 className="font-semibold  pt-4 px-8">Total Revenue</h2>
+      <ResponsiveContainer width="100%" height="78%" className="pr-4 mt-1 ">
         <BarChart data={data}>
           <CartesianGrid
             vertical={false}
@@ -47,7 +47,6 @@ const Revenue = () => {
             tickLine={false}
             tickFormatter={(value) => `${value / 1000}k`}
           />
-          <Tooltip />
           <Bar
             dataKey="online"
             fill="#0095FF"
@@ -67,12 +66,12 @@ const Revenue = () => {
       </ResponsiveContainer>
       <div className="flex gap-4 items-center justify-center">
         <div className="flex items-center gap-1">
-          <div className="h-4 w-4 rounded-full bg-[#0095FF]"></div>
+          <div className="h-3 w-3 rounded-full bg-[#0095FF]"></div>
           <span className="text-[10px]">Online Sales</span>
         </div>
 
         <div className="flex items-center gap-1">
-          <div className="h-4 w-4 rounded-full bg-[#00E096]"></div>
+          <div className="h-3 w-3 rounded-full bg-[#00E096]"></div>
           <span className="text-[10px]">Offline Sales</span>
         </div>
       </div>

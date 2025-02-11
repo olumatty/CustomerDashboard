@@ -5,9 +5,9 @@ import GreenTick from "../assets/GreenTick.svg";
 
 const Customer = () => {
   return (
-    <div className="bg-white rounded-lg h-[260px] py-4 px-8">
+    <div className="bg-white rounded-lg h-[280px] py-4 px-8">
       <h2 className="font-semibold mb-4">Customer Satisfaction</h2>
-      <img src={Graph} alt="graph" />
+      <img src={Graph} alt="graph" className='h-45 w-full' />
       <hr className="text-[#EDF2F6] mt-2" />
 
       <div className="flex gap-5 items-center justify-center mt-2">
