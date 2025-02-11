@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../../assets/Group 1000002785.svg";
-import { sidebBarData } from "../../Data/Data";
+import { sidebBarData } from "../../data/Data";
 import GetProImage from "../../assets/Get pro.png";
 
 const Sidebar = () => {
