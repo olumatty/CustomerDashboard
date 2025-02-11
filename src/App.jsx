@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from './scenes/global/sidebar'
+import Sidebar from './scenes/global/Sidebar'
 import Header from './scenes/global/Header'
 import Dashboard from './scenes/Dashboard/Index'
 
