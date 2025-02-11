@@ -38,6 +38,7 @@ const Revenue = () => {
             interval={0}
             axisLine={false}
             tickLine={false}
+            className="hidden sm:block"
           />
           <YAxis
             tick={{ fontSize: 10 }}
@@ -46,6 +47,7 @@ const Revenue = () => {
             axisLine={false}
             tickLine={false}
             tickFormatter={(value) => `${value / 1000}k`}
+            className="hidden sm:block"
           />
           <Bar
             dataKey="online"
