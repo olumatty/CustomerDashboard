@@ -8,7 +8,7 @@ import Black_Arrow from "../../assets/Arrowdown_black.svg";
 
 const Header = () => {
   return (
-    <div className="h-20 py-4 px-4 md:pl-6 bg-white w-full">
+    <div className="h-20 py-4 px-4 md:pl-6 bg-white w-full max-w-[600px] md:w-full md:max-w-full ">
       <div className="flex items-center justify-between flex-wrap">
         {/* Dashboard Title */}
         <h1 className="text-lg hidden lg:block lg:text-[22px] font-semibold">Dashboard</h1>
@@ -16,12 +16,12 @@ const Header = () => {
         {/* Search Bar - Responsive */}
         <div className="relative w-[60%] md:w-[40%] lg:w-auto mt-3 md:mt-0">
           <div className="absolute top-3 left-6">
-            <img src={Search} alt="search" className="h-4" />
+            <img src={Search} alt="search" className=" h-3 md:h-4" />
           </div>
           <input
             placeholder="Search here..."
             type="text"
-            className="w-full md:w-[400px] lg:w-[600px] text-[14px] h-10 md:h-10 px-12 bg-[#F9FAFB] rounded-lg outline-none"
+            className="w-full md:w-[400px] lg:w-[600px] text-[10px] md:text-[14px] h-10 md:h-10 px-12 bg-[#F9FAFB] rounded-lg outline-none"
           />
         </div>
 

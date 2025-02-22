@@ -10,7 +10,7 @@ import Volume from "../../components/Volume";
 
 const Dashboard = () => {
   return (
-    <div className="py-6 px-6 w-full gap-6 auto-rows-[260px]">
+    <div className="py-6 px-6 w-full gap-6 auto-rows-[280px]">
       {/* Row One */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
         <div className="lg:col-span-7">

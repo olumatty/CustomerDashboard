@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <div className='app'>
         <Sidebar/>
-        <div className='Content ml-16 md:ml-28 lg:ml-60 w-full '>
+        <div className='Content ml-16 md:ml-28 lg:ml-60 w-auto md:w-full '>
           <Header/>
           <Dashboard/>
         </div>

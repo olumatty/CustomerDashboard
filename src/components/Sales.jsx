@@ -9,20 +9,20 @@ const Sales = () => {
   return (
     <div className='bg-white rounded-lg h-auto lg:h-[280px] py-4 px-6 md:px-8'>
       {/* Header */}
-      <div className='flex justify-between items-center flex-wrap'>
+      <div className='flex flex-col md:flex-row justify-between items-start md:items-center flex-wrap '>
         <div className='flex flex-col space-y-2'>
           <span className='font-semibold text-lg'>Today's Sales</span>
           <span className='text-sm text-[#737791]'>Sales Summary</span>
         </div>
 
-        <div className='h-10 w-24 flex items-center border p-2  rounded-lg gap-2 cursor-pointer'>
+        <div className='h-10 w-20 md:w-24 flex items-center border p-2  rounded-lg gap-2 cursor-pointer'>
           <img src={ExportBtn} alt="Export Button" />
-          <span className='text-sm'>Export</span>
+          <span className='text-[12px] md:text-[14px]'>Export</span>
         </div>
       </div>
 
       {/* Card Section - Responsive */}
-      <div className='mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:flex gap-4 md:gap-6 lg:gap-8'>
+      <div className='mt-4 md:mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:flex gap-4 md:gap-6 lg:gap-8'>
         
         {/* Total Sales */}
         <div className='bg-[#FFE2E5] lg:w-[140px] h-full rounded-lg p-4 flex flex-col items-start'>

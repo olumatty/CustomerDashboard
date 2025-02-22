@@ -2,7 +2,7 @@ import React from 'react';
 
 const Products = () => {
   return (
-    <div className="bg-white rounded-lg h-[280px] sm:h-auto overflow-hidden">
+    <div className="bg-white rounded-lg h-full sm:h-auto overflow-hidden">
       <h2 className="font-semibold pt-4 px-4">Top Products</h2>
 
       {/* Make table scrollable on small screens */}
@@ -10,10 +10,10 @@ const Products = () => {
         <table className="w-full border-collapse min-w-[500px]">
           <thead>
             <tr className="border-b border-b-[#EDF2F6]">
-              <th className="text-left text-[#96A5B8] font-normal py-3 px-3">#</th>
-              <th className="text-left text-[#96A5B8] font-normal py-3 px-3">Name</th>
-              <th className="text-left text-[#96A5B8] font-normal py-3 px-3">Popularity</th>
-              <th className="text-left text-[#96A5B8] font-normal py-3 px-3">Sales</th>
+              <th className="text-left text-[#96A5B8] text-[14px] font-normal py-3 px-3">#</th>
+              <th className="text-left text-[#96A5B8] text-[14px] font-normal py-3 px-3">Name</th>
+              <th className="text-left text-[#96A5B8] text-[14px] font-normal py-3 px-3">Popularity</th>
+              <th className="text-left text-[#96A5B8] text-[14px] font-normal py-3 px-3">Sales</th>
             </tr>
           </thead>
           <tbody>

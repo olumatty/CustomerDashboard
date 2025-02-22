@@ -12,7 +12,7 @@ const data = [
 
 const Volume = () => {
   return (
-    <div className='bg-white rounded-lg h-[280px]'>
+    <div className='bg-white rounded-lg h-full'>
       <h2 className="font-semibold pt-4 px-6">Volume vs Service Level</h2>
       <ResponsiveContainer width="100%" height="60%">
         <BarChart data={data}>
@@ -21,7 +21,7 @@ const Volume = () => {
         </BarChart>
       </ResponsiveContainer>
 
-      <hr className="text-[#EDF2F6] mt-2" />
+      <hr className="text-[#EDF2F6] mt-1" />
       
             <div className="flex gap-5 items-center justify-center mt-2">
               <div className="flex gap-1 mt-1">

@@ -16,7 +16,7 @@ const Customer = () => {
             <img src={BlueTick} alt="tick" />
           </div>
           <div className="flex flex-col">
-            <span className="text-[12px] text-[#96A5B8]">Last Month</span>
+            <span className="text-[12px] text-[#96A5B8] whitespace-pre">Last Month</span>
             <span className="text-[11px]">$3,004</span>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Customer = () => {
             <img src={GreenTick} alt="tick" />
           </div>
           <div className="flex flex-col">
-            <span className="text-[12px] text-[#96A5B8]">This Month</span>
+            <span className="text-[12px] text-[#96A5B8] whitespace-pre">This Month</span>
             <span className="text-[11px]">$4,504</span>
           </div>
         </div>

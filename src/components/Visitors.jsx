@@ -29,7 +29,7 @@ const VisitorInsightsChart = () => {
   return (
     <div className="w-full h-[280px] bg-white rounded-lg">
       <h2 className="font-semibold pt-4 px-6">Visitor Insights</h2>
-      <ResponsiveContainer width="98%" height="75%" className="mt-2 pr-4">
+      <ResponsiveContainer width="98%" height="75%" className="mt-2 pr-2 lg:pr-4">
         <LineChart data={data}>
           <XAxis
             dataKey="name"
@@ -52,7 +52,7 @@ const VisitorInsightsChart = () => {
           <ReferenceLine x="Jul" stroke="red" strokeDasharray="4 4" />
         </LineChart>
       </ResponsiveContainer>
-      <div className="flex gap-3 items-center justify-center">
+      <div className=" hidden md:flex gap-3 items-center justify-center">
         <div className="flex items-center gap-2">
           <div className="h-3 w-3 bg-[#A700FF]"></div>
           <span className="text-[10px]">Loyal Customers</span>
