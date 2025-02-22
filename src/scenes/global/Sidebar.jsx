@@ -19,7 +19,7 @@ const Sidebar = () => {
       </div>
 
       {/* Navbar */} 
-      <ul className="mt-12 space-y-10" >
+      <ul className="mt-10 space-y-8" >
         {sidebBarData.map((data, index) => {
           const isActive = activeLink === data.id; 
           return (
@@ -31,12 +31,12 @@ const Sidebar = () => {
               onClick={() => setActiveLink(data.id)} // Corrected onClick handler
             >
               <div className=" pl-3">
-                <img src={data.icon} alt="icon" className={`h-6 w-6 ${isActive ? "text-white" :" " }`} />
+                <img src={data.icon} alt="icon" className={`h-4 w-4 ${isActive ? "text-white" :" " }`} />
               </div>
 
               <span
                 className={`hidden lg:block text-sm transition-all ${
-                  isActive ? "text-white" : "text-[#737791]"
+                  isActive ? "text-white" : "text-[#737791]" 
                 }`}
               >
                 {data.title}
@@ -47,8 +47,8 @@ const Sidebar = () => {
       </ul>
 
       {/* Update */}
-      <div className=" hidden lg:block lg:absolute md:bottom-10  md:left-0 md:px-8 md:py-2 cursor-pointer">
-        <img src={GetProImage} alt="" className="h-40 w-40" />
+      <div className="hidden lg:block md:px-10 lg:absolute md:bottom-12 mx-auto md:left-0 md:mx-auto cursor-pointer">
+        <img src={GetProImage} alt="" className="h-30 w-30" />
       </div>
     </div>
   );

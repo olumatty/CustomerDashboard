@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Search from "../../assets/Search.svg";
 import Flag from "../../assets/Flag.svg";
 import Arrow_down from "../../assets/chevron-down.svg";
