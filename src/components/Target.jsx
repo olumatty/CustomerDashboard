@@ -17,7 +17,7 @@ const Target = () => {
   return (
     <div className='bg-white rounded-lg h-[280px]'>
       <h2 className="font-semibold pt-4 px-6">Target vs Reality</h2>
-      <ResponsiveContainer width="100%" height="52%" className="px-2">
+      <ResponsiveContainer width="100%" height="50%" className="px-2">
         <BarChart data={data} >
           <XAxis
             dataKey="name"  
@@ -34,26 +34,26 @@ const Target = () => {
       <div className='flex space-x-5'>
       <div>
       <div className='px-6 mt-1 flex items-center gap-3'>
-        <div className='h-10 w-10 bg-[#E2FFF3] rounded-lg'><img src={Bag} alt='Bag' className='mx-auto pt-2'/></div>
+        <div className='h-8 w-8 bg-[#E2FFF3] rounded-lg'><img src={Bag} alt='Bag' className='mx-auto pt-2'/></div>
         <div className='flex flex-col'>
-          <span className='text-[13px] font-semibold'> Reality Sales</span>
-          <span className='text-[11px] mt-1 text-[#737791]'>Global</span>
+          <span className='text-[12px] font-semibold'> Reality Sales</span>
+          <span className='text-[10px] text-[#737791]'>Global</span>
         </div>
       </div>
 
-      <div className='px-6 mt-2 flex items-center gap-3'>
-        <div className='h-10 w-10 bg-[#FFF4DE] rounded-lg'><img src={Ticket} alt='Bag' className='mx-auto pt-2'/></div>
+      <div className='px-6 mt-4 flex items-center gap-3'>
+        <div className='h-8 w-8 bg-[#FFF4DE] rounded-lg'><img src={Ticket} alt='Bag' className='mx-auto pt-2'/></div>
         <div className='flex flex-col'>
-          <span className='text-[13px] font-semibold'> Target Sales</span>
-          <span className='text-[11px] mt-1 text-[#737791]'>Global</span>
+          <span className='text-[12px] font-semibold'> Target Sales</span>
+          <span className='text-[10px] mt- text-[#737791]'>Global</span>
         </div>
       </div>
       </div>
 
       <div>
-        <div className='flex flex-col space-y-8 mt-4'>
-          <span className='text-[#27AE60] font-medium'> 8.823</span>
-          <span className='text-[#FFA412] font-medium'> 12.122</span>
+        <div className='flex flex-col space-y-8 mt-1'>
+          <span className='text-[#27AE60] font-medium text-[16px]'> 8.823</span>
+          <span className='text-[#FFA412] font-medium text-[16px  '> 12.122</span>
         </div>
       </div>
 

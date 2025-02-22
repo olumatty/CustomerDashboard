@@ -7,7 +7,7 @@ import CustomerIcon from "../assets/New Costumers Icon.svg"
 
 const Sales = () => {
   return (
-    <div className='bg-white rounded-lg h-auto lg:h-[260px] py-4 px-6 md:px-8'>
+    <div className='bg-white rounded-lg h-auto lg:h-[280px] py-4 px-6 md:px-8'>
       {/* Header */}
       <div className='flex justify-between items-center flex-wrap'>
         <div className='flex flex-col space-y-2'>
@@ -22,15 +22,15 @@ const Sales = () => {
       </div>
 
       {/* Card Section - Responsive */}
-      <div className='mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:flex gap-4 md:gap-6 lg:gap-8'>
+      <div className='mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:flex gap-4 md:gap-6 lg:gap-8'>
         
         {/* Total Sales */}
         <div className='bg-[#FFE2E5] lg:w-[140px] h-full rounded-lg p-4 flex flex-col items-start'>
           <div className='w-8 h-8 flex justify-center items-center rounded-full bg-[#FA5A7D]'>
-            <img src={SalesIcon} alt='sales_icon' className='w-6 h-6' />
+            <img src={SalesIcon} alt='sales_icon' className='w-6 h-6 mt-1' />
           </div>
           <span className='mt-3 font-semibold text-xl text-[#151D48]'>$1k</span>
-          <span className='mt-2 text-[#425166] font-medium'>Total Sales</span>
+          <span className='mt-2 text-[#425166] text-[14px] font-medium'>Total Sales</span>
           <span className='text-[10px] mt-2 text-[#4079ED]'>+8% from yesterday</span>
         </div>
 
@@ -40,7 +40,7 @@ const Sales = () => {
             <img src={OrderIcon} alt='sales_icon' className='w-5 h-5' />
           </div>
           <span className='mt-3 font-semibold text-xl text-[#151D48]'>300</span>
-          <span className='mt-2 text-[#425166] font-medium'>Total Order</span>
+          <span className='mt-2 text-[#425166] text-[14px] font-medium'>Total Order</span>
           <span className='text-[10px] mt-2 text-[#4079ED]'>+5% from yesterday</span>
         </div>
 
@@ -50,7 +50,7 @@ const Sales = () => {
             <img src={ProductIcon} alt='sales_icon' className='w-6 h-6' />
           </div>
           <span className='mt-3 font-semibold text-xl  text-[#151D48]'>5</span>
-          <span className='mt-2 text-[#425166] font-medium'>Product Sold</span>
+          <span className='mt-2 text-[#425166] text-[14px] font-medium'>Product Sold</span>
           <span className='text-[10px] mt-2 text-[#4079ED]'>+1.2% from yesterday</span>
         </div>
 
@@ -60,7 +60,7 @@ const Sales = () => {
             <img src={CustomerIcon} alt='sales_icon' className='w-6 h-6' />
           </div>
           <span className='mt-3 font-semibold text-xl text-[#151D48]'>8</span>
-          <span className='mt-2 text-[#425166] font-medium whitespace-pre'>New Customers</span>
+          <span className='mt-2 text-[#425166] font-medium text-[14px] whitespace-pre'>New Customers</span>
           <span className='text-[10px] mt-2 text-[#4079ED]'>0.5% from yesterday</span>
         </div>
 

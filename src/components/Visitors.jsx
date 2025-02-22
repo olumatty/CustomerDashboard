@@ -27,7 +27,7 @@ const data = [
 
 const VisitorInsightsChart = () => {
   return (
-    <div className="w-full h-[260px] bg-white rounded-lg">
+    <div className="w-full h-[280px] bg-white rounded-lg">
       <h2 className="font-semibold pt-4 px-6">Visitor Insights</h2>
       <ResponsiveContainer width="98%" height="75%" className="mt-2 pr-4">
         <LineChart data={data}>
